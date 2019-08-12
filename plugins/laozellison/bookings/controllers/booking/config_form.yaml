@@ -1,0 +1,10 @@
+name: Booking
+form: $/laozellison/bookings/models/booking/fields.yaml
+modelClass: Laozellison\Bookings\Models\Booking
+defaultRedirect: laozellison/bookings/booking
+create:
+    redirect: 'laozellison/bookings/booking/update/:id'
+    redirectClose: laozellison/bookings/booking
+update:
+    redirect: laozellison/bookings/booking
+    redirectClose: laozellison/bookings/booking

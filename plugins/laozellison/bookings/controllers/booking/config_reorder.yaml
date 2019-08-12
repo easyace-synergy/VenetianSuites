@@ -1,0 +1,4 @@
+title: Booking
+modelClass: Laozellison\Bookings\Models\Booking
+toolbar:
+    buttons: reorder_toolbar

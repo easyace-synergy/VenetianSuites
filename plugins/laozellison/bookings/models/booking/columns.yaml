@@ -1,0 +1,34 @@
+columns:
+    surname:
+        label: Surname
+        type: text
+        searchable: true
+        sortable: true
+    ref_number:
+        label: Ref_Number
+        type: text
+        searchable: true
+        sortable: true
+    check_in:
+        label: Check_in
+        type: date
+        sortable: true
+    check_out:
+        label: Check_out
+        type: date
+        sortable: true
+    room_no:
+        label: 'Room Number'
+        type: number
+        searchable: true
+        sortable: true
+    room_plan:
+        label: 'Room Type'
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: Email
+        type: text
+        searchable: true
+        sortable: true

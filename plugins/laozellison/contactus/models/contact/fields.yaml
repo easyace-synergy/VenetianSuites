@@ -1,0 +1,27 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        placeholder: 'Client name'
+        required: 1
+        type: text
+        comment: 'Client Name'
+    email:
+        label: Email
+        span: auto
+        required: 1
+        type: text
+        comment: 'Client Email'
+    subject:
+        label: Subject
+        span: full
+        placeholder: 'Client complain subject'
+        required: 1
+        type: text
+        comment: 'Clientsubject of complain'
+    message:
+        label: 'The Message'
+        size: huge
+        span: full
+        required: 1
+        type: textarea

@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table laozellison_bookings_'
+    - builder_table_create_laozellison_bookings_.php
+1.0.3:
+    - 'Updated table laozellison_bookings_'
+    - builder_table_update_laozellison_bookings_.php
+1.0.4:
+    - 'Updated table laozellison_bookings_'
+    - builder_table_update_laozellison_bookings__2.php
+1.0.5:
+    - 'Updated table laozellison_bookings_'
+    - builder_table_update_laozellison_bookings__3.php

@@ -1,0 +1,18 @@
+   
+   
+   {% flash %}
+    <p
+        data-control="flash-message"
+        class="flash-message fade {{ type }}"
+        data-interval="15">
+        {{ message }}
+    </p>
+{% endflash %}
+
+    <form data-request="onSend" id="contact_form" class="contact_form" data-request-validate data-request-flash>
+        <input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Name" data-error="Name is required." name="name">
+        <input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="E-mail" data-error="Email is required." name="email">
+        <input type="text" id="contact_form_subject" class="contact_form_subject input_field" placeholder="Subject" data-error="Subject is required." name="subject">
+        <textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" data-error="Please, write us a message."></textarea>
+        <button data-attach-loading type="submit" id="form_submit_button" class="form_submit_button button">send message<span></span><span></span><span></span></button>
+    </form>

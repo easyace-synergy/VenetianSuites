@@ -1,0 +1,6 @@
+plugin:
+    name: 'laozellison.reservations::lang.plugin.name'
+    description: 'Frontend Hotel Reservation'
+    author: Laozellison
+    icon: oc-icon-home
+    homepage: ''

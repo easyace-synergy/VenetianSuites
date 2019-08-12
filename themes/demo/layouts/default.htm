@@ -1,0 +1,167 @@
+<!DOCTYPE php>
+<html lang="en">
+<head>
+<title>The Venetian Suites</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Travelix Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" type="text/css" href="{{ 'assets/css/styles/bootstrap4/bootstrap.min.css'|theme }}"> -->
+<link rel="stylesheet" href="{{ 'assets/css/uikit.css'|theme }}">
+<link rel="stylesheet" href="{{ 'assets/css/animate.css'|theme }}">
+<link rel="stylesheet" href="{{ 'assets/css/bootstrap.css'|theme }}">
+<link rel="stylesheet" href="{{ 'assets/css/aos.css'|theme }}">
+<link href="{{ 'assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css'|theme }}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{{ 'assets/plugins/OwlCarousel2-2.2.1/owl.carousel.css'|theme }}">
+<link rel="stylesheet" type="text/css" href="{{ 'assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css'|theme }}">
+<link rel="stylesheet" type="text/css" href="{{ 'assets/plugins/OwlCarousel2-2.2.1/animate.css'|theme }}">
+<link rel="stylesheet" type="text/css" href="{{ 'assets/css/main_styles.css'|theme }}">
+<link rel="stylesheet" type="text/css" href="{{ 'assets/css/responsive.css'|theme }}">
+
+
+
+<style>
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+    .social_list{
+        margin-top: 6px;
+    }
+    .main_nav_col{
+        height: 70px !important;
+    }
+    .intro-text{
+        font-style: normal !important;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px !important;
+    }
+    .contact-us{
+        margin-top: 0rem !important;
+    }
+    .about-text{
+        margin-top: -10% !important;
+        text-align: center !important;
+        font-weight: bolder !important;
+        font-size: 3rem;
+        color: white;
+        text-transform: capitalize;
+    }
+    .about-div{
+        background-image: url({{ 'assets/images/about_background.jpg'|theme }});
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:200px;
+        width:100%;
+        margin-bottom: 3rem;
+    }
+
+    .about-intro{
+        margin-bottom: 5rem !important;
+    }
+
+    .intro_button11{
+        margin-top: 12rem;
+    }
+
+    .uk-card{
+        height: 664px !important;
+        background: transparent !important;
+         box-sizing: none;
+    }
+    .contact_form{
+        height: 408px !important;
+    }
+    .offers-card{
+        height: 300px !important;
+    }
+    @media only screen and (max-width: 500px) {
+            .offers-card{
+            height: 300px !important;
+            margin-bottom: 3rem !important;
+        }
+    }
+    .offers-image{
+        height: 270px !important;
+    }
+    .offer-title{
+        color: #eda84a !important;
+    }
+    .book_button{
+	background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+    }
+    .alert{
+        display: none !important;
+        visibility: none !important;
+    }
+</style>
+
+</head>
+
+<body>
+
+
+
+        <!-- Header -->
+        <header id="layout-header">
+            {% partial 'site/header' %}
+        </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial 'site/footer' %}
+        </footer>
+
+        <!-- Scripts -->
+        <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
+
+        
+	
+
+<script src="{{ 'assets/javascript/jquery-3.2.1.min.js'|theme }}"></script>
+<script src="{{ 'assets/javascript/popper.js'|theme }}"></script>
+<script src="{{ 'assets/javascript/bootstrap.js'|theme }}"></script>
+<script src="{{ 'assets/plugins/OwlCarousel2-2.2.1/owl.carousel.js'|theme }}"></script>
+<script src="{{ 'assets/plugins/easing/easing.js'|theme }}"></script>
+<script src="{{ 'assets/javascript/custom.js'|theme }}"></script>
+
+
+<!-- <script src="assets/javascript/jquery.js"></script> -->
+<script src="{{ 'assets/javascript/bootstrap.js'|theme }}"></script>
+<script src="{{ 'assets/javascript/uikit.js'|theme }}"></script>
+<script src="{{ 'assets/javascript/aos.js'|theme }}"></script>
+<script>
+  AOS.init();
+</script>
+
+
+<script>
+    $(document).ready(function($){
+        $('.contact-form').on('ajaxError', function(event, message){
+            $('.alert.uk-alert-danger').removeClass('alert');
+        });
+    });
+</script>
+</body>
+
+</html>
+    </body>
+</html>

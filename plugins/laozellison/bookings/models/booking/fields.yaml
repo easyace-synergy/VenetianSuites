@@ -1,0 +1,66 @@
+tabs:
+    fields:
+        check_in:
+            label: 'Pick a Check-In Date'
+            mode: datetime
+            span: auto
+            placeholder: 'Pick a check-in Date'
+            required: 1
+            type: datepicker
+            comment: 'Customer Check in Time'
+            tab: 'Tab 1'
+        check_out:
+            label: 'Pick a Check-out Date'
+            mode: date
+            span: auto
+            placeholder: 'Customer Check-out Date'
+            required: 1
+            type: datepicker
+            comment: 'Customer Check-out Date'
+            tab: 'Tab 1'
+        ref_number:
+            label: 'Reference Number'
+            span: full
+            placeholder: 'Reference Number'
+            required: 1
+            type: text
+            comment: 'Customer Unique Reference Number'
+            tab: 'Tab 1'
+        surname:
+            label: 'Customer Surname'
+            span: left
+            placeholder: 'Customer Surname'
+            required: 1
+            type: text
+            comment: 'Customer Surname'
+            tab: 'Tab 1'
+        room_no:
+            label: 'Room Number'
+            span: auto
+            placeholder: 'Room Number (eg 301)'
+            required: 1
+            type: number
+            comment: 'add room Number'
+            tab: 'Tab 1'
+        room_plan:
+            label: 'Suite Plan'
+            options:
+                'Standard suites': 'Standard suites'
+                'Deluxe Suite': 'Deluxe Suite'
+                'Executive suite': 'Executive suite'
+                'Diplomatic Suite': 'Diplomatic Suite'
+            showSearch: true
+            span: auto
+            placeholder: 'Choose a plan'
+            required: 1
+            type: dropdown
+            comment: 'choose a plan'
+            tab: 'Tab 1'
+        email:
+            label: Email
+            span: auto
+            placeholder: 'Client Email'
+            required: 1
+            type: text
+            comment: 'Input client Email'
+            tab: 'Tab 1'

@@ -1,0 +1,11 @@
+plugin:
+    name: 'laozellison.contactus::lang.plugin.name'
+    description: 'laozellison.contactus::lang.plugin.description'
+    author: Laozellison
+    icon: oc-icon-envelope-o
+    homepage: ''
+navigation:
+    contact-us:
+        label: 'laozellison.contactus::lang.plugin.name'
+        url: laozellison/contactus/contact
+        icon: icon-envelope-o

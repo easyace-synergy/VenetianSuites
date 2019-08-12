@@ -1,0 +1,11 @@
+plugin:
+    name: 'laozellison.bookings::lang.plugin.name'
+    description: 'laozellison.bookings::lang.plugin.description'
+    author: Laozellison
+    icon: oc-icon-book
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Bookings
+        url: laozellison/bookings/booking
+        icon: icon-bookmark-o

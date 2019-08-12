@@ -1,0 +1,20 @@
+1565607066a:1:{s:12:"bookings.htm";a:9:{s:8:"fileName";s:12:"bookings.htm";s:7:"content";s:381:"title = "bookings"
+url = "/bookings"
+is_hidden = 0
+
+[builderList]
+modelClass = "Laozellison\Bookings\Models\Booking"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "ref_number"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+
+<div class="container">
+    {% component 'builderList' %}
+</div>";s:5:"mtime";i:1565428986;s:6:"markup";s:66:"<div class="container">
+    {% component 'builderList' %}
+</div>";s:4:"code";N;s:5:"title";s:8:"bookings";s:3:"url";s:9:"/bookings";s:9:"is_hidden";s:1:"0";s:11:"builderList";a:8:{s:10:"modelClass";s:35:"Laozellison\Bookings\Models\Booking";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:10:"ref_number";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

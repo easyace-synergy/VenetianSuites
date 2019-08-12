@@ -1,0 +1,80 @@
+1565607066a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:1605:"title = "contact"
+url = "/contact"
+layout = "default"
+is_hidden = 0
+
+[contact]
+==
+<div class="about-div">
+    // <img src="{{ 'assets/images/about_background.jpg'|theme }}" class="about-image">
+    <div class="about-text">Contact us</div>
+</div>
+
+	<!-- Contact -->
+<br><br><br><br><br>
+
+
+	<!-- About -->
+	<div class="about">
+		<div class="container">
+			<div class="ro">
+	<!-- Google Map -->
+		<div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+    <div>
+        <div class="uk-box-shadow-large">
+									<div class="travelix_map">
+		<div id="google_map" class="google_map ">
+            <div class="map_container">
+           <div class="mapouter"><div class="gmap_canvas uk-box-shadow-large"><iframe width="600" height="664" id="gmap_canvas" src="https://maps.google.com/maps?q=Augustus%20Aikhomu%20Mabushi%2C%20Abuja&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/20-off-discount-for-elegant-themes-divi-sale-coupon-code-2019/">divi discount code</a></div><style>.mapouter{position:relative;text-align:right;height:660px;width:560px;}.gmap_canvas {overflow:hidden;background:none!important;height:660px;width:560px;}</style></div>
+			</div>
+		</div>
+    </div>
+		</div>
+    </div>
+    <div>
+        <div class="uk-box-shadow-large">
+				<div class="contact_form_container">
+						<div class="contact_title text-center">get in touch</div>
+						{% component 'contact' %}
+					</div>
+		</div>
+    </div>
+</div>
+
+    <br><br><br>";s:5:"mtime";i:1565605764;s:6:"markup";s:1516:"<div class="about-div">
+    // <img src="{{ 'assets/images/about_background.jpg'|theme }}" class="about-image">
+    <div class="about-text">Contact us</div>
+</div>
+
+	<!-- Contact -->
+<br><br><br><br><br>
+
+
+	<!-- About -->
+	<div class="about">
+		<div class="container">
+			<div class="ro">
+	<!-- Google Map -->
+		<div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+    <div>
+        <div class="uk-box-shadow-large">
+									<div class="travelix_map">
+		<div id="google_map" class="google_map ">
+            <div class="map_container">
+           <div class="mapouter"><div class="gmap_canvas uk-box-shadow-large"><iframe width="600" height="664" id="gmap_canvas" src="https://maps.google.com/maps?q=Augustus%20Aikhomu%20Mabushi%2C%20Abuja&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/20-off-discount-for-elegant-themes-divi-sale-coupon-code-2019/">divi discount code</a></div><style>.mapouter{position:relative;text-align:right;height:660px;width:560px;}.gmap_canvas {overflow:hidden;background:none!important;height:660px;width:560px;}</style></div>
+			</div>
+		</div>
+    </div>
+		</div>
+    </div>
+    <div>
+        <div class="uk-box-shadow-large">
+				<div class="contact_form_container">
+						<div class="contact_title text-center">get in touch</div>
+						{% component 'contact' %}
+					</div>
+		</div>
+    </div>
+</div>
+
+    <br><br><br>";s:4:"code";N;s:5:"title";s:7:"contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"contact";a:0:{}}}

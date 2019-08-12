@@ -1,0 +1,8 @@
+1565607066a:1:{s:10:"offers.htm";a:10:{s:8:"fileName";s:10:"offers.htm";s:7:"content";s:159:"title = "offers"
+url = "/offers"
+layout = "default"
+is_hidden = 0
+
+[reservationform]
+==
+{% partial 'site/offers.htm' %}{% component 'reservationform' %}";s:5:"mtime";i:1565466771;s:6:"markup";s:64:"{% partial 'site/offers.htm' %}{% component 'reservationform' %}";s:4:"code";N;s:5:"title";s:6:"offers";s:3:"url";s:7:"/offers";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:15:"reservationform";a:0:{}}}

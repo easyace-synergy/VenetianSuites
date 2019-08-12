@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table laozellison_contactus_'
+    - builder_table_create_laozellison_contactus_.php

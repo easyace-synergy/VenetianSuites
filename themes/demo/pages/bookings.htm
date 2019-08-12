@@ -1,0 +1,18 @@
+title = "bookings"
+url = "/bookings"
+is_hidden = 0
+
+[builderList]
+modelClass = "Laozellison\Bookings\Models\Booking"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "ref_number"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+
+<div class="container">
+    {% component 'builderList' %}
+</div>

@@ -1,0 +1,10 @@
+name: Contact
+form: $/laozellison/contactus/models/contact/fields.yaml
+modelClass: Laozellison\Contactus\Models\Contact
+defaultRedirect: laozellison/contactus/contact
+create:
+    redirect: 'laozellison/contactus/contact/update/:id'
+    redirectClose: laozellison/contactus/contact
+update:
+    redirect: laozellison/contactus/contact
+    redirectClose: laozellison/contactus/contact

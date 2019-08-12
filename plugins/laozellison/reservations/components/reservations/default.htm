@@ -1,0 +1,60 @@
+	<div class="search" id="booking">
+		
+
+		<!-- Search Contents -->
+		
+		<div class="container fill_height">
+                {% flash %}
+					<p
+						data-control="flash-message"
+						class="flash-message fade {{ type }}"
+						data-interval="1500">
+						{{ message }}
+					</p>
+				{% endflash %}
+			<div class="row fill_height">
+				<div class="col fill_height">
+					<div class="search_panel active">
+						<form data-request="onSave" data-request-validate data-request-flash id="search_form_1" class="search_panel_content contact-form d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+                        
+							<div class="search_item">
+								<div>Surname</div>
+								<input type="text" class="check_in search_input" placeholder="Surname" name="surname">
+                                    <b class="uk-text-dark" style="color: black">{{ errors.first('surname') }}</b>
+							</div>
+                            <div class="search_item">
+                                 <div>Email</div>
+                                <input type="email" class="check_in search_input" placeholder="email" name="email">
+                                    <b class="uk-text-dark" style="color: black">{{ errors.first('email') }}</b>
+                            </div>
+							<div class="search_item">
+								<div>Check in</div>
+								<input type="date" class="check_out search_input" placeholder="YYYY-MM-DD" name="check_in">
+                                <b class="uk-text-dark" style="color: black">{{ errors.first('check_in') }}</b>
+							</div>
+							<div class="search_item">
+								<div>check out</div>
+								<input type="date" class="check_out search_input" placeholder="YYYY-MM-DD" name="check_out">
+                                <b class="uk-text-dark" style="color: black">{{ errors.first('check_out') }}</b>
+							</div>
+							<div class="search_item">
+								<div>Suite Type</div>
+								<select name="suites" id="adults_1" class="dropdown_item_select search_input">
+                                    <option value="">Pick a suite</option>
+									<option value="Standard suites">Standard suites</option>
+									<option value="Deluxe Suite">Deluxe Suite</option>
+									<option value="Executive suite">Executive suite</option>
+                                    <option value="Diplomatic Suite">Diplomatic Suite</option>
+								</select>
+                                <b class="uk-text-dark" style="color: black">{{ errors.first('suites') }}</b>
+							</div>
+							<button class="button search_button" type="submit" data-attach-loading>Book Us<span></span><span></span><span></span></button>
+						</form>
+                       
+					</div>
+
+				</div>
+			</div>
+            
+		</div>		
+	</div>
